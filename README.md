@@ -10,3 +10,5 @@ The results were good, i was abble to relate heavy burns that happened in Brazil
 
 Python was mainly used with Pandas, Numpy, Pyproj, Matplotlib and many other libraries needed for processing and visualizing data.
 
+This study is open for citation and usage, feel free to use the codes and commands at will. (cite me if possible!)
+
