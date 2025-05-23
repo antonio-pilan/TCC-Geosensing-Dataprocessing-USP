@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository presents the Final Thesis of my graduate research project.
+This repository presents the Final Thesis of my undergraduate research project.
 
 Using GOES-16 Satellite data, i've studied Land Surface Temperature and Total Preciptable Water and understood the algorithms behind satellites pre-processing.
 
