@@ -64,7 +64,7 @@ The main objectives of this research were:
 * TPW analysis revealed characteristic seasonal patterns, with a pronounced drop in atmospheric water vapor around day 100 of each year (March-April), leading to extended dry periods.
 * The year 2024 was identified as atypically dry. A significant second drop in TPW occurred around day 200 (approaching July).
 * The combination of high temperatures and low TPW in 2024, particularly the low TPW values (around 5cm) during the August heatwave, created conditions highly conducive to the observed large-scale wildfires.
-* 
+  
 ### Correlation and Impact
 * A strong correlation was observed between LST, TPW, and drought periods, particularly highlighting the conditions leading to the 2024 wildfires.
 * The study demonstrates that GOES-16 satellite data can effectively monitor and analyze environmental conditions with significant socio-economic implications.
