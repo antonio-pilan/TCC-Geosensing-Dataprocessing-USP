@@ -6,7 +6,7 @@
 
 ## 📜 Overview
 
-This project presents an undergraduate research study focused on the characterization of atmospheric and surface physical properties using satellite-inferred data. The research investigates estimates of **Land Surface Temperature (LST)** and **Total Precipitable Water (TPW)** in the north-central region of São Paulo state, Brazil. [cite: 8] Data was sourced from the Advanced Baseline Imager (ABI) sensor aboard the GOES-16 geostationary satellite. 
+This project presents an undergraduate research study focused on the characterization of atmospheric and surface physical properties using satellite-inferred data. The research investigates estimates of **Land Surface Temperature (LST)** and **Total Precipitable Water (TPW)** in the north-central region of São Paulo state, Brazil. Data was sourced from the Advanced Baseline Imager (ABI) sensor aboard the GOES-16 geostationary satellite. 
 
 The study addresses the following scientific questions: "How do surface temperature and atmospheric water vapor over north-central São Paulo statistically characterize themselves from satellite inferences? What are the limitations of this technique?" 
 
@@ -62,7 +62,7 @@ The main objectives of this research were:
 
 ### Total Precipitable Water (TPW)
 * TPW analysis revealed characteristic seasonal patterns, with a pronounced drop in atmospheric water vapor around day 100 of each year (March-April), leading to extended dry periods.
-* The year 2024 was identified as atypically dry. [cite: 171] A significant second drop in TPW occurred around day 200 (approaching July).
+* The year 2024 was identified as atypically dry. A significant second drop in TPW occurred around day 200 (approaching July).
 * The combination of high temperatures and low TPW in 2024, particularly the low TPW values (around 5cm) during the August heatwave, created conditions highly conducive to the observed large-scale wildfires.
 * 
 ### Correlation and Impact
