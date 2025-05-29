@@ -28,7 +28,7 @@ The main objectives of this research were:
 ## 🛠️ Methodology and Technical Stack
 
 ### Data Source and Tools
-* **Satellite Data**: Measurements were obtained from the Advanced Baseline Imager (ABI) sensor on the **GOES-16** satellite. [cite: 8] This satellite provides high-frequency radiance measurements (every 10 minutes) with a spatial resolution of up to 2km.
+* **Satellite Data**: Measurements were obtained from the Advanced Baseline Imager (ABI) sensor on the **GOES-16** satellite.This satellite provides high-frequency radiance measurements (every 10 minutes) with a spatial resolution of up to 2km.
 * **Data Products**:
     * `ABI-L2-LSTF` / `ABI-L2-LSTF2KM`: Land Surface Temperature (Full Disk / 2km resolution). 
     * `ABI-L2-TPWF`: Total Precipitable Water (Full Disk).
@@ -46,8 +46,8 @@ The main objectives of this research were:
 * **Data Quality**: Only readings with over 70% valid pixels (i.e., less than 30% cloud cover) were considered for statistical analysis, acknowledging a potential bias towards clearer, possibly warmer and drier days. Linear interpolation was used to handle missing data for short intervals.
 
 ### Physical Principles
-* **Land Surface Temperature (LST)**: Inferred using the $11.2\,\mu\text{m}$ and $12.3\,\mu\text{m}$ channels (atmospheric window), which are transparent or semi-transparent to the atmosphere. The algorithm considers emitted surface radiance ($I_{s}(\lambda)$), reflected atmospheric radiance ($I_{atm}^{\perp}(\lambda)$), and upwelling atmospheric radiance ($I_{atm}^{\dagger}(\lambda)$), applying Planck's Law to derive temperature ($T_{s}$) from spectral radiance ($B(\lambda,T_{s})$). Surface masking for water, clouds, and ice is applied to ensure only land temperature is measured.
-* **Total Precipitable Water (TPW)**: Estimated by projecting all water vapor in the atmospheric column onto the ground, measured in centimeters. The algorithm discretizes the atmosphere into layers ($k$) and uses specific GOES-16 channels sensitive to water vapor absorption ($q_{k}$) at different altitudes. It employs numerical integration and Look-Up Tables (LUTs) relating radiance to water vapor content to build a vertical profile and then integrate it using the formula:
+* **Land Surface Temperature (LST)**: Inferred using the $11.2\,\mu\text{m}$ and $12.3\,\mu\text{m}$ channels (atmospheric window), which are transparent or semi-transparent to the atmosphere. The algorithm considers emitted surface radiance $I_{s}(\lambda)$, reflected atmospheric radiance $I_{atm}^{\perp}(\lambda)$, and upwelling atmospheric radiance $I_{atm}^{\dagger}(\lambda)$, applying Planck's Law to derive temperature $T_{s}$ from spectral radiance $B(\lambda,T_{s})$. Surface masking for water, clouds, and ice is applied to ensure only land temperature is measured.
+* **Total Precipitable Water (TPW)**: Estimated by projecting all water vapor in the atmospheric column onto the ground, measured in centimeters. The algorithm discretizes the atmosphere into layers $k$ and uses specific GOES-16 channels sensitive to water vapor absorption $q_{k}$ at different altitudes. It employs numerical integration and Look-Up Tables (LUTs) relating radiance to water vapor content to build a vertical profile and then integrate it using the formula:
     $TPW = \frac{10}{\rho_{w}g}\sum 0.5 \cdot (q_{k+1} + q_{k}) \cdot (p_{k} - p_{k+1})$
 
 ---
